@@ -25,7 +25,7 @@ public class RobotReturnToZero {
                     break;
             }
         }
-        if (x == y && x == 0)
+        if (x == 0 && x == y)
             return true;
         else
             return false;
